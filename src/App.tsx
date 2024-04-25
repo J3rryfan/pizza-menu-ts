@@ -1,6 +1,9 @@
 import './App.css'
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Menu from './components/Menu';
 
-const pizzaData = [
+export const pizzaData = [
   {
     name: "Focaccia",
     ingredients: "Bread with italian olive oil and rosemary",
@@ -47,22 +50,13 @@ const pizzaData = [
 
 function App() {
   return (
-    <>
-      <h1>Hello React</h1>
-      <Pizza />
-    </>
-  )
-}
-
-function Pizza() {
-  return (
     <div>
-      <img src="pizzas/spinaci.jpg" alt="Pizza Spinaci"/>
-      <h1>Pizza Spinaci</h1>
-      <p>Tomato, mozarella, spinach, and ricotta cheese</p>
-
+      <Header />
+      <Menu />
+      <Footer />
     </div>
   )
 }
+
 
 export default App
