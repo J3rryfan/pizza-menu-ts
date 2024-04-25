@@ -2,8 +2,9 @@ import MenuItem from "./MenuItem";
 
 export default function Menu() {
   return (
-    <div>
+    <main className="menu">
+      <h2>Our Menu</h2>
       <MenuItem />
-    </div>
+    </main>
   )
 }

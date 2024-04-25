@@ -1,7 +1,7 @@
-import './App.css'
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Menu from './components/Menu';
+import './App.css'
 
 export const pizzaData = [
   {
@@ -50,7 +50,7 @@ export const pizzaData = [
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Header />
       <Menu />
       <Footer />
